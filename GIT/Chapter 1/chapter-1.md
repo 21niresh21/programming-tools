@@ -19,7 +19,7 @@
 
 * Local VCS - A local databased in the system that records all the changes to files
 
-![Local VCS](path)
+![Local VCS](images/lvcs.png)
 
 * Centralized VCS - A single central database where all the data regarding the history of file resides which also helps people to collaborate on projects
 
