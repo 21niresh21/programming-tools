@@ -23,15 +23,21 @@
 
 * Centralized VCS - A single central database where all the data regarding the history of file resides which also helps people to collaborate on projects
 
-![Local VCS](path)
+![centralized VCS](images/cvcs.png)
 
 * Distributed VCS - These systems mirror the full repository including all the history
+
+![distributed VCS](images/dvcs.png)
 
 ## Working of Git
 
 * Most version control systems stores the changes between the version of files and use those changes made to a file to recall a particular version of the file (patch differences). These are also called as delta based version control
 
+![delta VCS](images/delta-vcs.png)
+
 * Git takes a snapshot of the project at that time when you commit and stores a reference to that snapshot - everything in git is stream of snapshots
+
+![snapshot git](images/git-snapshot.png)
 
 ### Particulars of Git
 
@@ -46,6 +52,8 @@
 | Modified | Working tree/Staging area | Files that have been changed but not yet commited |
 | Staged | Staging area | Have marked a modified file to into your next commit snapshot |
 |Commited | .git directory | Data is stored in local database |
+
+![three states](images/three-state.png)
 
 ### Workflow
 
