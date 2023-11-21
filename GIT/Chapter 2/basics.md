@@ -17,8 +17,8 @@
 
 ## Basic commands
 
-        git status - to find the status of files
-        git add <filename> - to stage files
+* To find the status of files - ```git status```
+* To stage files - ```git add <filename>```
 
 ### Short status
 
@@ -36,6 +36,8 @@
 
 To skip files from adding to staging area, mention those files in the ```.gitignore``` file
 
+[https://github.com/github/gitignore](https://github.com/github/gitignore) 
+
 ### Comparing files
 
 - To view the details of changes made to the files in your working tree and staging area
@@ -49,7 +51,7 @@ To skip files from adding to staging area, mention those files in the ```.gitign
 ### Commits
 - To commit with message  - ```git commit -m "type in the commit message"```
 
-- To skip staging and commit  - ```git commit -a```
+- To skip staging and commit everything that was tracked - ```git commit -a```
 
 ### Remove files
 
