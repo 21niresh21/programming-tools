@@ -25,7 +25,7 @@
 
 ![centralized VCS](images/cvcs.png)
 
-* Distributed VCS - These systems mirror the full repository including all the history
+* Distributed VCS - These systems mirror the full repository including all the history, every clone is really a full backup of all the data
 
 ![distributed VCS](images/dvcs.png)
 
@@ -41,8 +41,8 @@
 
 ### Particulars of Git
 
-* Every operation is local (offline)
-* Integrity - using checksum
+* Every operation can be performed locally (offline)
+* Integrity - everything in git is checksummed before it is stored (SHA-1)
 * Difficult to delete or do something undoable, so there are no risks of messing things or lose something
 
 ### Three file states of Git
@@ -50,7 +50,7 @@
 | State of file | Location     | Description                |
 | :-------- | :------- | :------------------------- |
 | Modified | Working tree/Staging area | Files that have been changed but not yet commited |
-| Staged | Staging area | Have marked a modified file to into your next commit snapshot |
+| Staged | Staging area/Index | Have marked a modified file to into your next commit snapshot |
 |Commited | .git directory | Data is stored in local database |
 
 ![three states](images/three-state.png)
