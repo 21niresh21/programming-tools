@@ -24,6 +24,8 @@
 * Lightweight tags - a pointer to that particular commit
 * Annotated tags(important tags to store all details of tag) - these tags are stored as full objects in the git database
 
+## Tag commands
+
 * To list tags - ```git tag```
 * To create annotated tag - ```git tag -a <tag> -m <message>```
 * To create lightweight tag - ```git tag <tag>```
