@@ -11,7 +11,7 @@
 * Missing values in calculations are considered as zero for statistical and computational methods like ```sum()```, ```mean()```
 * Missing values in arithmetic calculations between pandas object propagate naturally
 * Sum of empty or all-NA Series or column of DataFrame is ```0```
-* Product of empty or all-NA Series or column of DataFrame is ```0```
+* Product of empty or all-NA Series or column of DataFrame is ```1```
 * Missing values in GroupBy functions are ignored
 * To fill missing values - ```fillna()```
 * To drop the label axis with missing values - ```dropna()```
