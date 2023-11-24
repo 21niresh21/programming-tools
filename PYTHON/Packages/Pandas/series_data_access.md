@@ -6,6 +6,9 @@
     * if there is no key found then it returns ```None```
     * multiple keys can be passed as a sequence
     * can return multiple values
+
+![get() illustration](Series.get.png)
+ 
 * ```Series.at[key]```
     * it is a property that supports indexing but not a function 
     * it is mainly used to get scalar/single value
